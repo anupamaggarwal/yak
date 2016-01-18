@@ -1,4 +1,4 @@
-package kvpaxos
+package kv
 
 const (
 	OK       = "OK"

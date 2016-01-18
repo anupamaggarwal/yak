@@ -1,4 +1,4 @@
-package kvpaxos
+package kv
 
 import "testing"
 import "runtime"
