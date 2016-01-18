@@ -26,7 +26,6 @@ func MakeClerk(servers []string) *Clerk {
 	ck.servers = servers
 	//assign a random id for identification
 	ck.uuid = nrand()
-	// You'll have to add code here.
 	return ck
 }
 
@@ -67,7 +66,6 @@ func call(srv string, rpcname string,
 func (ck *Clerk) Get(key string) string {
 	ck.mu.Lock()
 	defer ck.mu.Unlock()
-	// You will have to modify this function.
 	//generate a unique xid
 	xid := nrand()
 	retVal := ""

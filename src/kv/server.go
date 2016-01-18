@@ -253,7 +253,6 @@ func (kv *KVPaxos) isunreliable() bool {
 // me is the index of the current server in servers[].
 //
 func StartServer(servers []string, me int) *KVPaxos {
-	// call gob.Register on structures you want
 	// Go's RPC library to marshall/unmarshall.
 	gob.Register(Op{})
 	kv := new(KVPaxos)
