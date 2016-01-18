@@ -8,3 +8,4 @@ Paxos is used for synchronizing state of the system among the replicas
 ---
 API 
 
+See test_test.go under kv for usage example
