@@ -1,4 +1,4 @@
-# yaks
+# yak
 Yet another key store
 
 A simple distributed, fully replicated in memory key value store enforcing sequential consitency.
